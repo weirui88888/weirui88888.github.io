@@ -1,11 +1,12 @@
 # Summary
 
-- [介绍](README.md)
+- [Introduction](README.md)
 
 * [Javascript]()
 
-  - [拍平数组](note/Javascript/flatArray.md)
-  - [获取数组的前 N 项](note/Javascript/firstArray.md)
+  - [工具类函数]()
+    - [拍平数组](note/Javascript/flatArray.md)
+    - [获取数组的前 N 项](note/Javascript/firstArray.md)
 
 * [Css]()
 
