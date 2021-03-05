@@ -1,7 +1,7 @@
 {
   "name": "gitbook-remark",
   "version": "1.0.0",
-  "description": "##### 用于记录一些工作和学习中遇到的问题，方便回顾和总结。",
+  "description": "用于记录一些工作和学习中遇到的问题，方便回顾和总结。",
   "main": "index.js",
   "dependencies": {
     "gitbook-plugin-back-to-top-button": "^0.1.4",
@@ -15,10 +15,16 @@
     "gitbook-plugin-splitter": "^0.0.8"
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "yorkie": "^2.0.0"
+  },
+  "gitHooks": {
+    "post-commit": "npm run deploy"
   },
   "scripts": {
-    "deploy": "gitbook build && gh-pages -a -d _book --remote origin -b gh-pages -r https://github.com/weirui88888/weirui88888.github.io.git"
+    "dev": "gitbook serve --open",
+    "deploy": "gitbook build && gh-pages -a -d _book --remote origin -b gh-pages -r https://github.com/weirui88888/weirui88888.github.io.git",
+    "tree": "tree -L 3 -I 'node_modules|_book|package*|tree.text' > tree.text"
   },
   "repository": {
     "type": "git",
