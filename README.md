@@ -8,6 +8,8 @@
 - 创建 md 文件，配置 SUMMARY.md 目录
 - 写完后执行 npm run tree 生成 gitbook 目录
 - 替换 README.md 中的目录结构
+- git add . 提交文件
+- git commit （执行该命令后会执行 hooks 自动触发 deploy 命令，会自动部署到 gh-pages 分支，无需手动部署）
 
 ### 目录结构
 
