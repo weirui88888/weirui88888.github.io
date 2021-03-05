@@ -1,0 +1,28 @@
+{
+  "title": "记录一些有趣的事",
+  "language": "en",
+  "plugins": [
+    "-sharing",
+    "code",
+    "back-to-top-button",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "tbfed-pagefooter",
+    "github",
+    "emphasize",
+    "splitter",
+    "pageview-count",
+    "popup"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy mine 2000-2020",
+      "modify_label": "文件修改时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "github": {
+      "url": "https://github.com/weirui88888"
+    }
+  }
+}
