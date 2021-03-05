@@ -18,7 +18,10 @@
     "gh-pages": "^3.1.0"
   },
   "scripts": {
-    "deploy": "gitbook build && gh-pages -a -d _book --remote origin -b gh-pages -r https://github.com/weirui88888/weirui88888.github.io.git"
+    "dev": "gitbook serve --open",
+    "post-commit": "npm run deploy",
+    "deploy": "gitbook build && gh-pages -a -d _book --remote origin -b gh-pages -r https://github.com/weirui88888/weirui88888.github.io.git",
+    "tree": "tree -L 3 -I 'node_modules|_book|package*|tree.text' > tree.text"
   },
   "repository": {
     "type": "git",
