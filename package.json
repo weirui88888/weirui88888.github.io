@@ -24,7 +24,7 @@
   "scripts": {
     "dev": "gitbook serve",
     "deploy": "gitbook build && gh-pages -a -d _book --remote origin -b gh-pages -r https://github.com/weirui88888/weirui88888.github.io.git",
-    "tree": "tree -L 3 -I 'node_modules|_book|package*|tree.text' > tree.text"
+    "tree": "tree -L 3 -I 'node_modules|_book|package*|tree.text' -N > tree.text"
   },
   "repository": {
     "type": "git",
