@@ -14,13 +14,20 @@
 ### 目录结构
 
 ```
-├── README.md // 介绍页
-├── SUMMARY.md // gitbook目录页
-├── book.json // 用于配置gitbook
-├── note // 文章目录
-    ├── Css
-    │   └── randomColor.md
-    └── Javascript
-        ├── firstArray.md
-        └── flatArray.md
+├── Blog
+│   └── blog.md
+├── Css
+│   ├── randomColor.md
+│   └── 集合元素大于第N个.md
+├── Javascript
+│   ├── Aop.md
+│   ├── Array
+│   │   ├── firstArray.md
+│   │   └── flatArray.md
+│   ├── JS核心概念.md
+│   ├── Promise
+│   └── pretty-monitor-logger.md
+├── README.md
+├── SUMMARY.md
+└── book.json
 ```

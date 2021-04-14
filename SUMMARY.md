@@ -2,7 +2,15 @@
 
 - [Introduction](README.md)
 
+* [优秀博客](Blog/blog.md)
+
 * [Javascript]()
+
+  - [核心概念](Javascript/JS核心概念.md)
+  - [设计模式]()
+
+    - [AOP](Javascript/Aop.md)
+    - [埋点监控日志](Javascript/pretty-monitor-logger.md)
 
   - [工具类函数]()
     - [拍平数组](Javascript/Array/flatArray.md)
@@ -37,6 +45,8 @@
 * [服务器]()
 
   - [如何部署项目]()
+
+- [gitbook 中文文档](https://chrisniael.gitbooks.io/gitbook-documentation/content/format/markdown.html)
 
 <!-- * [心得]()
 
