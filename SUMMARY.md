@@ -3,6 +3,8 @@
 - [Introduction](README.md)
 
 * [优秀博客](Blog/blog.md)
+* [vscode 常用快捷键](Blog/hotcommond.md)
+* [git](Blog/git.md)
 
 * [从 0 到 1 搭建一个后台项目]()
 
