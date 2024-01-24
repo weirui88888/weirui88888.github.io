@@ -43,6 +43,8 @@
 
 {{ next_font() }}
 
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css" media="print" onload="this.media='all'">
+
 {%- set font_awesome_uri = theme.vendors.fontawesome or next_vendors('font-awesome/css/all.min.css') %}
 <link rel="stylesheet" href="{{ font_awesome_uri }}">
 
