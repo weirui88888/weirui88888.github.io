@@ -95,8 +95,8 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-# scheme: Muse
-scheme: Mist
+scheme: Muse
+# scheme: Mist
 # scheme: Pisces
 # scheme: Gemini
 
@@ -160,7 +160,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://static.anyphoto.space/xdz-avatar.png
+  url: https://text2image.xdzi8b.cn/xdz-avatar.png
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.

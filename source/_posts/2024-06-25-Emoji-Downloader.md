@@ -2,6 +2,8 @@
 title: Emoji-Downloader
 date: 2024-06-25 09:45:34
 tags:
+categories:
+  - code
 ---
 
 我再次强调，这不是一个 emoji 组件库，只是一个帮助你下载所有 emoji 并生成与之配套的配置文件的工具。借助此工具，你可以轻松自定义自己的 emoji 组件库。
